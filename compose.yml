@@ -5,12 +5,12 @@ services:
    
    image: dbimage
    ports:
-     - "3307:3307"
+     - "3308:3308"
 
  application:
    image: appimage
    
    ports:
-     - "2222:8080"
+     - "3333:8080"
    depends_on:
      - "devopsdb"
