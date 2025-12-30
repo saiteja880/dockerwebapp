@@ -5,7 +5,7 @@ services:
    
    image: dbimage
    ports:
-     - "3306:3306"
+     - "3307:3307"
 
  application:
    image: appimage
